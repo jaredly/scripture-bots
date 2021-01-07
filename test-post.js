@@ -1,4 +1,3 @@
-// const twit = require('twit');
 require('dotenv').config();
 
 console.log('ok');
