@@ -52,4 +52,4 @@ var client = new Twitter({
     access_token_secret: process.env.USER_SECRET,
 });
 
-tweetDate(client);
+tweetDate(client).catch((err) => console.error(err));
