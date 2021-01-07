@@ -18,5 +18,5 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 13
-    - run: npm ci
+    - run: npm i
     - run: echo "hi"
